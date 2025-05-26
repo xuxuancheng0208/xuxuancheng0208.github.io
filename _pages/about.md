@@ -9,11 +9,9 @@ redirect_from:
 
 # About Me
 
-I am a first-year Ph.D. student at [Nanjing University of Posts and Telecommunications](https://www.njupt.edu.cn/). My research interests lie in the fields of **computer vision**, **generative AI**, and **diffusion models**, with a particular emphasis on **controllable video generation**.
+Welcome to my GitHub. I am a first-year Ph.D. student at [Nanjing University of Posts and Telecommunications](https://www.njupt.edu.cn/). My research interests lie in the fields of **computer vision**, **generative AI**, and **diffusion models**, with a particular emphasis on **controllable video generation**.
 
-I am very fortunate to be advised by [Prof. Bingkun Bao](https://www.XXX.com/) of XXX Lab from [School of Computer Science](https://cs.pku.edu.cn/), Peking University. I was advised by [Prof. XX](https://XXX.pku.edu.cn/) from [School of Computer Science](https://cs.pku.edu.cn/), Peking University.
-
-You can find my CV here: [XX's Curriculum Vitae](../assets/Curriculum_Vitae.pdf).
+I am very fortunate to be advised by [Prof. Bingkun Bao](https://www.scholat.com/bkbao.cn) of [Multimedia Cognitive Computing Lab](https://mcclab.njupt.edu.cn/main.htm).
 
 [Email](mailto:XX@stu.pku.edu.cn) / [Github](https://github.com/QiuDi233) / [Wechat](../images/wechat.jpg) / [CSDN](https://blog.csdn.net/qd1813100174?spm=1000.2115.3001.5343)
 ————————————————

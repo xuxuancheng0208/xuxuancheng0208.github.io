@@ -1,19 +1,14 @@
----
-permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
-author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
----
-
 # About Me
 
-Welcome to my GitHub. I am a first-year Ph.D. student at [Nanjing University of Posts and Telecommunications](https://www.njupt.edu.cn/). My research interests lie in the fields of **computer vision**, **generative AI**, and **diffusion models**, with a particular emphasis on **controllable video generation**.
+# 🎉 Welcome to My GitHub!
 
-I am very fortunate to be advised by [Prof. Bingkun Bao](https://www.scholat.com/bkbao.cn) of [Multimedia Cognitive Computing Lab](https://mcclab.njupt.edu.cn/main.htm).
+👋 Hi there! I am a first-year Ph.D. student at [Nanjing University of Posts and Telecommunications](https://www.njupt.edu.cn/). My research interests revolve around **computer vision**, **generative AI**, and **diffusion models**, with a special focus on **controllable video generation**. 🎥✨
 
-[Email](mailto:XX@stu.pku.edu.cn) / [Github](https://github.com/QiuDi233) / [Wechat](../images/wechat.jpg) / [CSDN](https://blog.csdn.net/qd1813100174?spm=1000.2115.3001.5343)
+🎓 I am fortunate to be advised by [Prof. Bingkun Bao](https://www.scholat.com/bkbao.cn) at the [Multimedia Cognitive Computing Lab](https://mcclab.njupt.edu.cn/main.htm). Together, we explore cutting-edge research in multimedia and artificial intelligence. 🤖🖼️
+
+📩 If you have any questions about my projects or want to collaborate, feel free to drop me an email at **2024010131@njupt.edu.cn**. I’m always happy to connect and share ideas! 💡🤝
+
+🔗 Let’s make something awesome together!
 ————————————————
 
                             版权声明：本文为博主原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接和本声明。

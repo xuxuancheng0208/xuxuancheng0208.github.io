@@ -16,7 +16,7 @@
 Here is a list of my selected publications. For more details, feel free to check out my [Google Scholar](#) or [ResearchGate](#) profiles. 📚✨
 
 - **[CLGC: Continuous Layout Guidance for Consistent Text-to-Video Editing](#)**  
-  **Xuancheng Xu\***, Ming Tao, **Bing-Kun Bao\***.*  
+  **Xuancheng Xu**, Ming Tao, Bing-Kun Bao\*.  
   *IEEE International Conference on Multimedia & Expo (ICME), 2025.*  
   _Description_: An advanced framework leveraging layout guidance for consistent and efficient text-to-video editing.  
   🔗 **[Paper Link](#)**

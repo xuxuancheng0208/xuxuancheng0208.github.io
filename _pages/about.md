@@ -28,23 +28,24 @@ redirect_from:
 
 Here is a list of my selected publications. For more details, feel free to check out my [Google Scholar](#) or [ResearchGate](#) profiles. 📚✨  
 
+# 📝 Publications  
+
+Here is a list of my selected publications. For more details, feel free to check out my [Google Scholar](#) or [ResearchGate](#) profiles. 📚✨  
+
 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
   <tbody>  
 
   <!-- CLGC -->
   <tr>
     <td style="padding:20px;width:30%;max-width:30%;" align="center">
-      <img style="width:100%;max-width:100%;" src="../images/CLGC.png" alt="CLGC Pipeline">
+      <img style="width:100%;max-width:100%;" src="../images/method.jpg" alt="CLGC Method">
     </td>
     <td width="75%" valign="center">
       <papertitle>**[CLGC: Continuous Layout Guidance for Consistent Text-to-Video Editing](#)**</papertitle>  
       <br>
       <b>**Xuancheng Xu**, Ming Tao, Bing-Kun Bao\*</b>  
       <br>
-      <em>IEEE International Conference on Multimedia & Expo (ICME), 2025. **[Oral]**</em>  
-      <br>
-      <a href="https://arxiv.org/abs/2505.03730">[PDF]</a>  
-      <a href="https://github.com/shiyi-zh0408/FlexiAct">[Project Page]</a>  
+      <em>IEEE International Conference on Multimedia & Expo (ICME), 2025. [**Oral**]</em>  
       <br>
       <p>An advanced framework leveraging layout guidance for consistent and efficient text-to-video editing.</p>  
     </td>

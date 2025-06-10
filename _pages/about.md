@@ -8,25 +8,18 @@ redirect_from:
 ---
 
 # About Me
-👋 Hi there! I am a first-year Ph.D. student at [Nanjing University of Posts and Telecommunications](https://www.njupt.edu.cn/). My research interests revolve around **computer vision**, **generative AI**, and **diffusion models**, with a special focus on **controllable video generation**. 🎥✨
+Hi there! I am a first-year Ph.D. student at [Nanjing University of Posts and Telecommunications](https://www.njupt.edu.cn/). My research interests revolve around **computer vision**, **generative AI**, and **diffusion models**, with a special focus on **controllable video generation**. 
 
-🎓 I am fortunate to be advised by [Prof. Bingkun Bao](https://www.scholat.com/bkbao.cn) at the [Multimedia Cognitive Computing Lab](https://mcclab.njupt.edu.cn/main.htm). Together, we explore cutting-edge research in multimedia and artificial intelligence. 🤖🖼️
+I am fortunate to be advised by [Prof. Bingkun Bao](https://www.scholat.com/bkbao.cn) at the [Multimedia Cognitive Computing Lab](https://mcclab.njupt.edu.cn/main.htm). Together, we explore cutting-edge research in multimedia and artificial intelligence. 
 
-📩 If you have any questions about my projects or want to collaborate, feel free to drop me an email at **2024010131@njupt.edu.cn**. I’m always happy to connect and share ideas! 💡🤝
+If you have any questions about my projects or want to collaborate, feel free to drop me an email at **2024010131@njupt.edu.cn**. I’m always happy to connect and share ideas! 💡🤝
 
-🔗 Let’s make something awesome together!
 
 ---
 # ✨ News  
 ---  
-* 🌟 **2025-05:** Our paper **CLGC** on Text-to-Video Editing has been selected for an **Oral Presentation**! 🎤 [ICME 2025](https://2025.ieeeicme.org/)  
-* 🎉 **2025-04:** Our paper **CLGC** on Text-to-Video Editing has been **accepted** to [ICME 2025](https://2025.ieeeicme.org/)! 📄
-
----
-
-# 📝 Publications  
-
-Here is a list of my selected publications. For more details, feel free to check out my [Google Scholar](#) or [ResearchGate](#) profiles. 📚✨  
+* 🎉 **2025-05:** Our paper **CLGC** on Text-to-Video Editing has been selected for an **Oral Presentation**!  [ICME 2025](https://2025.ieeeicme.org/)  
+* 🎉 **2025-04:** Our paper **CLGC** on Text-to-Video Editing has been **accepted** to [ICME 2025](https://2025.ieeeicme.org/)! 
 
 # 📝 Publications  
 
@@ -41,11 +34,11 @@ Here is a list of my selected publications. For more details, feel free to check
       <img style="width:100%;max-width:100%;" src="../images/method.jpg" alt="CLGC Method">
     </td>
     <td width="75%" valign="center">
-      <papertitle>**[CLGC: Continuous Layout Guidance for Consistent Text-to-Video Editing](#)**</papertitle>  
+      <papertitle><b>[CLGC: Continuous Layout Guidance for Consistent Text-to-Video Editing](#)</b></papertitle>  
       <br>
-      <b>**Xuancheng Xu**, Ming Tao, Bing-Kun Bao\*</b>  
+      <b><b>Xuancheng Xu</b>, Ming Tao, Bing-Kun Bao</b>  
       <br>
-      <em>IEEE International Conference on Multimedia & Expo (ICME), 2025. [**Oral**]</em>  
+      <em>IEEE International Conference on Multimedia & Expo (ICME), 2025. <b>Oral</b></em>  
       <br>
       <p>An advanced framework leveraging layout guidance for consistent and efficient text-to-video editing.</p>  
     </td>

@@ -33,7 +33,7 @@ Here is a list of my selected publications. For more details, feel free to check
       <img style="width:100%;max-width:100%;" src="../images/CLGC.png" alt="CLGC Method">
     </td>
     <td width="75%" valign="center">
-      <papertitle><b>[CLGC: Continuous Layout Guidance for Consistent Text-to-Video Editing](#)</b></papertitle>  
+      <papertitle><b>CLGC: Continuous Layout Guidance for Consistent Text-to-Video Editing</b></papertitle>  
       <br>
       <b><b>Xuancheng Xu</b>, Ming Tao, Bing-Kun Bao<span style="position:relative;top:-2px;font-size:smaller;">*</span></b>  
       <br>

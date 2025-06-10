@@ -16,17 +16,40 @@ redirect_from:
 
 🔗 Let’s make something awesome together!
 
+---
+# ✨ News  
+---  
+* 🌟 **2025-05:** Our paper **CLGC** on Text-to-Video Editing has been selected for an **Oral Presentation**! 🎤 [ICME 2025](https://2025.ieeeicme.org/)  
+* 🎉 **2025-04:** Our paper **CLGC** on Text-to-Video Editing has been **accepted** to [ICME 2025](https://2025.ieeeicme.org/)! 📄
 
-# 📝 Publications
+---
 
-Here is a list of my selected publications. For more details, feel free to check out my [Google Scholar](#) or [ResearchGate](#) profiles. 📚✨
+# 📝 Publications  
 
-- **[CLGC: Continuous Layout Guidance for Consistent Text-to-Video Editing](#)**  
-  **Xuancheng Xu**, Ming Tao, Bing-Kun Bao\*.  
-  *IEEE International Conference on Multimedia & Expo (ICME), 2025.*  
-  _Description_: An advanced framework leveraging layout guidance for consistent and efficient text-to-video editing.  
-  🔗 **[Paper Link](#)**
+Here is a list of my selected publications. For more details, feel free to check out my [Google Scholar](#) or [ResearchGate](#) profiles. 📚✨  
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+  <tbody>  
+
+  <!-- CLGC -->
+  <tr>
+    <td style="padding:20px;width:30%;max-width:30%;" align="center">
+      <img style="width:100%;max-width:100%;" src="../images/CLGC.png" alt="CLGC Pipeline">
+    </td>
+    <td width="75%" valign="center">
+      <papertitle>**[CLGC: Continuous Layout Guidance for Consistent Text-to-Video Editing](#)**</papertitle>  
+      <br>
+      <b>**Xuancheng Xu**, Ming Tao, Bing-Kun Bao\*</b>  
+      <br>
+      <em>IEEE International Conference on Multimedia & Expo (ICME), 2025. **[Oral]**</em>  
+      <br>
+      <a href="https://arxiv.org/abs/2505.03730">[PDF]</a>  
+      <a href="https://github.com/shiyi-zh0408/FlexiAct">[Project Page]</a>  
+      <br>
+      <p>An advanced framework leveraging layout guidance for consistent and efficient text-to-video editing.</p>  
+    </td>
+  </tr>  
+
+  </tbody>
+</table>
+

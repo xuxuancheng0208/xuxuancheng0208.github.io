@@ -36,7 +36,7 @@ Here is a list of my selected publications. For more details, feel free to check
     <td width="75%" valign="center">
       <papertitle><b>[CLGC: Continuous Layout Guidance for Consistent Text-to-Video Editing](#)</b></papertitle>  
       <br>
-      <b><b>Xuancheng Xu</b>, Ming Tao, Bing-Kun Bao</b>  
+      <b><b>Xuancheng Xu</b>, Ming Tao, Bing-Kun Bao<span style="position:relative;top:-2px;font-size:smaller;">*</span></b>  
       <br>
       <em>IEEE International Conference on Multimedia & Expo (ICME), 2025. <b>Oral</b></em>  
       <br>
@@ -46,4 +46,3 @@ Here is a list of my selected publications. For more details, feel free to check
 
   </tbody>
 </table>
-

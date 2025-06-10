@@ -19,7 +19,7 @@ If you have any questions about my projects or want to collaborate, feel free to
 * 🎉 **2025-05:** Our paper **CLGC** has been selected for an **Oral Presentation** in [ICME 2025](https://2025.ieeeicme.org/)!
 * 🎉 **2025-04:** Our paper **CLGC** has been **accepted** to [ICME 2025](https://2025.ieeeicme.org/)! 
 
-
+---
 # 📝 Publications  
 
 Here is a list of my selected publications. For more details, feel free to check out my [Google Scholar](#) or [ResearchGate](#) profiles. 📚✨  
@@ -37,7 +37,7 @@ Here is a list of my selected publications. For more details, feel free to check
       <br>
       <b><b>Xuancheng Xu</b>, Ming Tao, Bing-Kun Bao<span style="position:relative;top:-2px;font-size:smaller;">*</span></b>  
       <br>
-      <em>IEEE International Conference on Multimedia & Expo (ICME), 2025. <b>Oral</b></em>  
+      <em>IEEE International Conference on Multimedia & Expo (ICME), 2025. <b style="color: red;">Oral</b></em>
       <br>
       <p>An advanced framework leveraging layout guidance for consistent and efficient text-to-video editing.</p>  
     </td>

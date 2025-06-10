@@ -24,9 +24,9 @@ author:
   # Biographic information
   avatar           : "pic_en.png"
   name             : "Xuancheng Xu"
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "Nanjing University of Posts and Telecommunications"
   location         : "Nanjing, China"
-  employer         : "Nanjing University of Posts and Telecommunications"
+ # employer         : "Nanjing University of Posts and Telecommunications"
   uri              : # URL
   email            : "2024010131@njupt.edu.cn" 
 

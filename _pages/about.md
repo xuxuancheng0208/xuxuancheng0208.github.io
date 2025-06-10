@@ -19,6 +19,7 @@ If you have any questions about my projects or want to collaborate, feel free to
 * 🎉 **2025-05:** Our paper **CLGC** has been selected for an **Oral Presentation** in [ICME 2025](https://2025.ieeeicme.org/)!
 * 🎉 **2025-04:** Our paper **CLGC** has been **accepted** to [ICME 2025](https://2025.ieeeicme.org/)! 
 
+
 # 📝 Publications  
 
 Here is a list of my selected publications. For more details, feel free to check out my [Google Scholar](#) or [ResearchGate](#) profiles. 📚✨  
@@ -29,7 +30,7 @@ Here is a list of my selected publications. For more details, feel free to check
   <!-- CLGC -->
   <tr>
     <td style="padding:20px;width:30%;max-width:30%;" align="center">
-      <img style="width:100%;max-width:100%;" src="../images/method.jpg" alt="CLGC Method">
+      <img style="width:100%;max-width:100%;" src="../images/CLGC.png" alt="CLGC Method">
     </td>
     <td width="75%" valign="center">
       <papertitle><b>[CLGC: Continuous Layout Guidance for Consistent Text-to-Video Editing](#)</b></papertitle>  

@@ -16,8 +16,8 @@ If you have any questions about my projects or want to collaborate, feel free to
 
 
 ---
+
 # ✨ News  
----  
 * 🎉 **2025-05:** Our paper **CLGC** on Text-to-Video Editing has been selected for an **Oral Presentation**!  [ICME 2025](https://2025.ieeeicme.org/)  
 * 🎉 **2025-04:** Our paper **CLGC** on Text-to-Video Editing has been **accepted** to [ICME 2025](https://2025.ieeeicme.org/)! 
 

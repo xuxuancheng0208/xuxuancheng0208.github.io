@@ -16,6 +16,7 @@ If you have any questions about my projects or want to collaborate, feel free to
 # ✨ News
 
 🎉 2025-05: Our paper CLGC has been selected for <font clor='red'> **Oral** </font> presentation in [ICME 2025](https://2025.ieeeicme.org/)!
+
 🎉 2025-04: Our paper CLGC has been  <font clor='red'> **accepted** </font> to [ICME 2025](https://2025.ieeeicme.org/)!
 
 

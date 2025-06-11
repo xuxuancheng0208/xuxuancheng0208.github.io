@@ -13,17 +13,10 @@ I am fortunate to be advised by [Prof. Bingkun Bao](https://www.scholat.com/bkba
 If you have any questions about my projects or want to collaborate, feel free to drop me an email at **2024010131@njupt.edu.cn**. I’m always happy to connect and share ideas! 💡🤝
 
 
-# ICME 2025 新闻滚轮
+# ✨ News
 
-<div style="width: 80%; max-width: 800px; height: 200px; margin: 0 auto; overflow-y: auto; border: 1px solid #ddd; border-radius: 8px; background: #fff; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); padding: 10px;">
-
-### ✨ 2025-05
-🎉 Our paper **CLGC** has been selected for an **Oral Presentation** in [ICME 2025](https://2025.ieeeicme.org/)!
-
----
-
-### ✨ 2025-04
-🎉 Our paper **CLGC** has been **accepted** to [ICME 2025](https://2025.ieeeicme.org/)!
+🎉 2025-05: Our paper CLGC has been selected for **Oral** presentation in [ICME 2025](https://2025.ieeeicme.org/)!
+🎉 2025-04: Our paper CLGC has been **accepted** to [ICME 2025](https://2025.ieeeicme.org/)!
 
 </div>
 # 📝 Publications  

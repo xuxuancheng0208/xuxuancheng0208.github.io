@@ -29,7 +29,7 @@ Here is a list of my selected publications. For more details, feel free to check
 
   <!-- CLGC -->
   <tr>
-    <div><div class="badge">ICME 2025 Oral</div>
+    <div class="badge">ICME 2025 Oral</div>
     <td style="padding:20px;width:30%;max-width:30%;" align="center">
       <img style="width:100%;max-width:100%;" src="../images/CLGC.png" alt="CLGC Method">
     </td>

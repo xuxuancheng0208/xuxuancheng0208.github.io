@@ -5,8 +5,9 @@
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICME 2025 Oral</div><img src='images/papers/CLGC.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[DreamVideo: Composing Your Dream Videos with Customized Subject and Motion] \\
+[CLGC: Continuous layout guidance for consistent text-to-video editing] \\
 **Xuancheng Xu**, Ming Tao, Bing-kun Bao
+
 [[Paper]](https://ieeexplore.ieee.org/document/11210198)
 
 
@@ -23,7 +24,7 @@
 [[Paper]](https://arxiv.org/abs/2512.12193)
 [[Project page]](https://smrabooth.github.io/)
 [[Code]](https://github.com/xuxuancheng0208/SMRABooth)
-[![GitHub Stars](https://img.shields.io/github/stars/damo-vilab/i2vgen-xl?style=social)](https://github.com/xuxuancheng0208/SMRABooth)
+[![GitHub Stars](https://img.shields.io/github/stars/xuxuancheng0208/SMRABooth?style=social)](https://github.com/xuxuancheng0208/SMRABooth)
 
 - SMRABooth realizes customized video generation through subject and motion representation alignemnt on WAN2.1.
 </div>

@@ -118,6 +118,9 @@
       {% if author.wikipedia %}
         <li><a href="https://en.wikipedia.org/wiki/User:{{ author.wikipedia }}"><i class="fab fa-fw fa-wikipedia-w" aria-hidden="true"></i> Wikipedia</a></li>
 {% endif %}
+      {% if author.wechat %}
+        <li><a href="javascript:void(0);" onclick="document.getElementById('wechat-modal').style.display='flex'"><img src="images/wechat.svg" alt="WeChat" style="width:1.1em;height:1.1em;vertical-align:middle;margin-right:0.3em;"> WeChat</a></li>
+      {% endif %}
     </ul>
       <div class="author__urls_sm">
       {% if author.uri %}
@@ -220,4 +223,17 @@
 
 </div>
 
-<script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=nWExEtVKzFVvCoGZIQ15ykZ9WqpqYP7fLQwQtmcOvr0&cl=ffffff&w=a"></script>
+<a href="https://mapmyvisitors.com/web/1bxtr" title="Visit tracker">
+  <img src="https://mapmyvisitors.com/map.png?d=nWExEtVKzFVvCoGZIQ15ykZ9WqpqYP7fLQwQtmcOvr0&cl=ffffff&w=a" alt="Visit tracker"/>
+</a>
+
+<!-- WeChat QR Code Modal -->
+{% if author.wechat %}
+<div id="wechat-modal" style="display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.7);z-index:9999;justify-content:center;align-items:center;" onclick="this.style.display='none'">
+  <div style="background:#fff;padding:20px;border-radius:10px;text-align:center;max-width:90%;max-height:90%;" onclick="event.stopPropagation()">
+    <img src="images/wechat.jpg" alt="WeChat QR Code" style="max-width:300px;max-height:400px;border-radius:8px;">
+    <p style="margin-top:10px;color:#333;font-size:14px;">扫码添加微信</p>
+    <button onclick="document.getElementById('wechat-modal').style.display='none'" style="margin-top:10px;padding:8px 20px;background:#07c160;color:#fff;border:none;border-radius:5px;cursor:pointer;">关闭</button>
+  </div>
+</div>
+{% endif %}

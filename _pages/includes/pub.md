@@ -12,7 +12,19 @@
 [[Code]](https://github.com/xuxuancheng0208/SMRABooth)
 [![GitHub Stars](https://img.shields.io/github/stars/xuxuancheng0208/SMRABooth?style=social)](https://github.com/xuxuancheng0208/SMRABooth)
 
-- SMRABooth realizes customized video generation through subject and motion representation alignemnt on WAN2.1.
+- We explore the application of representation alignment in video customization and demonstrate significant performance improvements across various baselines.
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Evaluation</div><img src='images/papers/Disco-LoRA.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Disco-LoRA: Disentangled Composition of Content, Style, and Motion for Multi-concept Video Customization** \\
+**Xuancheng Xu**, Gengyun Jia, Bing-kun Bao
+
+[[Project page]](https://discolora.github.io/)
+
+- We pioneer the task of multi-concept video customization by systematically categorizing content, style, and motion, and establish a comprehensive benchmark comprising four distinct tasks to evaluate this capability. Furthermore, we introduce a novel framework to effectively disentangle and recombine diverse concepts from data.
 </div>
 </div>
 
@@ -25,6 +37,6 @@
 [[Paper]](https://ieeexplore.ieee.org/document/11210198)
 
 
-- CLGC is an advanced framework leveraging layout guidance for consistent and efficient text-to-video editing.
+- We propose CLGC, a novel framework that leverages layout guidance for consistent and efficient video editing.
 </div>
 </div>

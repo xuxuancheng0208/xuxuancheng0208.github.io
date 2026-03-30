@@ -12,7 +12,7 @@
 [[Code]](https://github.com/xuxuancheng0208/SMRABooth)
 [![GitHub Stars](https://img.shields.io/github/stars/xuxuancheng0208/SMRABooth?style=social)](https://github.com/xuxuancheng0208/SMRABooth)
 
-- Conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2026
+- IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2026
 - We explore the application of representation alignment in video customization and demonstrate significant performance improvements across various baselines.
 </div>
 </div>
@@ -38,7 +38,7 @@
 
 [[Paper]](https://ieeexplore.ieee.org/document/11210198)
 
-- Conference: IEEE International Conference on Multimedia & Expo (ICME) 2025 **[Oral]**
+- IEEE International Conference on Multimedia & Expo (ICME) 2025 **<font color="red">[Oral]</font>**
 - We propose CLGC, a novel framework that leverages layout guidance for consistent and efficient video editing.
 </div>
 </div>

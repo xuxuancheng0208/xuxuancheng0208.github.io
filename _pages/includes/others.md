@@ -9,13 +9,12 @@
 - *2020.09 - 2024.06*, Bachelor of Communication Engineering, Nanjing University of Posts and Telecommunications, Nanjing, China.
 
 # 💻 Internships
-<div class='paper-box'><div class='paper-box-image'><div><img src='images/internship/giga.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image' style="display:flex;justify-content:center;align-items:center;"><div><img src='images/internship/giga.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **GigaAI** \\
-Algorithm Intern
+Embodied intelligent robot algorithm
 
-- *2026.05 - now*
-- Research on video generation and world models.
+- *2026.05 - now*, Research on video world models for embodied AI.
 </div>
 </div>

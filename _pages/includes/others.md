@@ -8,5 +8,10 @@
 - *2024.09 - 2029.06* (now), Ph.D., Nanjing University of Posts and Telecommunications, Nanjing, China.
 - *2020.09 - 2024.06*, Bachelor of Communication Engineering, Nanjing University of Posts and Telecommunications, Nanjing, China.
 
-<!-- # 💻 Internships
--->
+# 💻 Internships
+<div class='paper-box'><<img src='images/internship/giga.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+- Intership in GigaAI
+- *2026.05 - now*
+</div>

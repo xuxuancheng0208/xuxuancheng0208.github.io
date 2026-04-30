@@ -13,7 +13,8 @@
 <div class='paper-box-text' markdown="1">
 
 **GigaAI** \\
-Embodied intelligent robot algorithm
+Embodied intelligent robot algorithm.
+My leader is [Zheng Zhu](https://www.zhengzhu.net/), and my mentor is Xiaofeng Wang(https://jeffwang987.github.io/).
 
 - *2026.05 - now*, Research on video world models for embodied AI.
 </div>

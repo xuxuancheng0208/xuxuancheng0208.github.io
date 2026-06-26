@@ -10,19 +10,19 @@
 [[Paper]](https://arxiv.org/abs/2512.12193)
 [[Project page]](https://smrabooth.github.io/)
 [[Code]](https://github.com/xuxuancheng0208/SMRABooth)
-[![GitHub Stars](https://img.shields.io/github/stars/xuxuancheng0208/SMRABooth?style=social)](https://github.com/xuxuancheng0208/SMRABooth)
 
 - IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2026
 - We explore the application of representation alignment in video customization and demonstrate significant performance improvements across various baselines.
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Evaluation</div><img src='images/papers/Disco-LoRA.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/papers/Disco-LoRA.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Disco-LoRA: Disentangled Composition of Content, Style, and Motion for Multi-concept Video Customization** \\
 **Xuancheng Xu**, Gengyun Jia, Bing-kun Bao
 
+[[Paper]](https://arxiv.org/pdf/2606.26668)
 [[Project page]](https://discolora.github.io/)
 
 - Under Evaluation.

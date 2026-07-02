@@ -11,9 +11,7 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 {% include_relative includes/intro.md %}
 
-<div class="news-scroll">
 {% include_relative includes/news.md %}
-</div>
 
 {% include_relative includes/pub.md %}
 

@@ -5,7 +5,7 @@
 <div class='paper-box-text' markdown="1">
 
 **GigaWorld-1: A Roadmap to World Models for Robot Policy Evaluation** \\
-GigaAI Team (**Xuancheng Xu**)
+**GigaAI Team** (**Xuancheng Xu** is the co-first author)
 
 [[Paper]]()
 [[Project page]](https://open-gigaai.github.io/giga-world-1/)

@@ -1,6 +1,21 @@
 
 # 📝 Publications 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Tecnical Report</div><img src='images/papers/giga-world-1.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**GigaWorld-1: A Roadmap to World Models for Robot Policy Evaluation** \\
+GigaAI Team (**Xuancheng Xu**)
+
+[[Paper]]()
+[[Project page]](https://open-gigaai.github.io/giga-world-1/)
+[[Code]](https://github.com/open-gigaai/giga-world-1)
+
+- Responsible for the training and evaluation of the video foundation model in GigaWorld-1, as well as the fine-tuning of downstream tasks.
+- GigaWorld-1 is a 1.3B/5B-parameter autoregressive diffusion-transformer world model designed specifically for robot policy evaluation. It generates simulated robot rollout videos and is adapted with parameter-efficient LoRA fine-tuning so that it can better predict whether different robot policies are likely to succeed or fail. 
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='images/papers/SMRABooth.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 

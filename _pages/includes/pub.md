@@ -31,7 +31,7 @@
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/papers/Disco-LoRA.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MM 2026</div><img src='images/papers/Disco-LoRA.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Disco-LoRA: Disentangled Composition of Content, Style, and Motion for Multi-concept Video Customization** \\
@@ -40,7 +40,7 @@
 [[Paper]](https://arxiv.org/pdf/2606.26668)
 [[Project page]](https://discolora.github.io/)
 
-- Under Evaluation.
+- ACM International Conference on Multimedia (MM) 2026
 - We pioneer the task of multi-concept video customization by systematically categorizing content, style, and motion, and establish a comprehensive benchmark comprising four distinct tasks to evaluate this capability. Furthermore, we introduce a novel framework to effectively disentangle and recombine diverse concepts from data.
 </div>
 </div>

@@ -1,5 +1,6 @@
 # 🔥 News
-- 🎉*July, 2026.* Our tecnical report for embodied action-conditioned world model **Gigaworld-1** has been released!
+- 🎉*July, 2026.* Our paper **Disco-LoRA** has been **accepted** to [MM 2026](https://2026.acmmm.org/)!
+- 🎉*July, 2026.* Our tecnical report for embodied action-conditioned world model **GigaWorld-1** has been released!
 - 💻*May, 2026.* I start my internship at [GigaAI](https://gigaai.cc/), researching embodied intelligence and video world models!
 - 🎉*February, 2026.* Our paper **SMRABooth** has been **accepted** to [CVPR 2026](https://cvpr.thecvf.com/)!
 - 🎉*May, 2025.* Our paper **CLGC** has been selected for **<font color="red">Oral</font>** presentation in [ICME 2025](https://2025.ieeeicme.org/)!

@@ -1,0 +1,89 @@
+.profile-pic{
+    width: 100%;
+}
+.hero-grid{
+}
+
+@media (max-width: 1000px) {
+    .profile-pic{
+        width: 80%;
+        margin-top: 4rem;
+    }
+}
+
+.hero-meta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.meta-name{
+    font-weight: 900;
+    font-size: calc(1.5rem + 2px);
+    font-style: italic;
+}
+.meta-description{
+    margin: 1rem;
+    font-size: calc(0.9rem + 2px);
+    /*color: #168ac4;*/
+    color: #acacac;
+}
+.meta-linkitem{
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+    background-color: #f0faff;
+    border-radius: 8px;
+    padding: 4px 12px;
+    color: #168ac4;
+    font-family: 'Sigmar One', serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15rem;
+}
+
+.contact-small{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1.4rem;
+    margin-top: 1rem;
+}
+.meta-link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.icon-link{
+    font-size: calc(1.4rem + 2px);
+    color: #168ac4;
+}
+.small-text{
+    color: #acacac;
+    font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: calc(0.75rem + 2px);
+    font-weight: normal;
+    font-style: italic;
+}
+
+/* Links and the WeChat button share the same icon alignment. */
+.contact-small .icon-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1em;
+    height: 1em;
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+    flex-shrink: 0;
+}
+.contact-small .icon-link svg {
+    display: block;
+    width: 1em;
+    height: 1em;
+    flex-shrink: 0;
+}

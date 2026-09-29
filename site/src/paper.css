@@ -1,0 +1,89 @@
+/* Surface treatment only: preserve the original layout and typography. */
+body {
+  background-color: #f1f5f8;
+  background-image: url('/paper-grain.svg');
+  background-repeat: repeat;
+}
+.left-hero, .right-content { background: transparent; }
+.header-wrapper {
+  background-color: rgba(241, 248, 250, .92);
+  background-image: url('/paper-grain.svg');
+  box-shadow: 0 1px 0 rgba(70, 83, 93, .07), 0 4px 16px rgba(57, 68, 78, .045);
+}
+.profile-pic {
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(53, 57, 63, .08), 0 12px 28px rgba(53, 57, 63, .12);
+}
+.news-list, .timeline-content, .education-item {
+  background-color: #f8fafc;
+  background-image: url('/paper-grain.svg');
+  border-color: rgba(89, 110, 129, .15);
+  box-shadow: 0 2px 4px rgba(45, 65, 85, .025), 0 6px 16px rgba(45, 65, 85, .045);
+}
+.publication-image {
+  box-shadow: 0 2px 5px rgba(55, 62, 68, .035), 0 7px 18px rgba(55, 62, 68, .065);
+}
+.callout {
+  background-color: #edf5f8;
+  background-image: url('/paper-grain.svg');
+  box-shadow: 0 3px 10px rgba(54, 84, 101, .045);
+}
+.meta-linkitem {
+  background-image: url('/paper-grain.svg');
+  box-shadow: 0 2px 5px rgba(54, 84, 101, .04);
+}
+.abstract-popup { box-shadow: 0 6px 24px rgba(44, 58, 66, .13); }
+.visitor-map-container {
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 2px 6px rgba(53, 57, 63, .035), 0 8px 22px rgba(53, 57, 63, .055);
+}
+
+/* Clearer edges in the same cool palette. */
+:root { --paper-border: #91a8ba; }
+.news-list, .timeline-content, .education-item, .publication-image,
+.publication-card, .publications-list, .news-list li, .callout {
+  border-color: var(--paper-border);
+}
+.paper-rank.ccf-a { border-color: #d28b91; }
+.paper-rank.ccf-b { border-color: #84a9bf; }
+.paper-distinction { border-color: #c9a26a; }
+.paper-review-status { border-color: #9aa8b8; }
+.header-wrapper {
+  box-shadow: 0 1px 0 #91a8ba, 0 4px 16px rgba(57, 68, 78, .045);
+}
+
+.chinese-name { font-family: "PingFang SC", "Microsoft YaHei", sans-serif; font-size: calc(.72em + 2px); font-weight: 600; font-style: normal; white-space: nowrap; }
+@media (max-width: 480px) {
+  .header-name .name-main { font-size: calc(.95rem + 2px); }
+}
+
+/* About text links. */
+.about .intro-text { text-align: left; }
+.about .intro-text > p { margin: 0 0 1.2rem; }
+.about .intro-text a { font-style: normal; }
+.about .intro-text > p a { text-decoration: underline; text-decoration-color: #9ab8ca; text-underline-offset: 3px; }
+.about .intro-text a:hover { color: #16749f; }
+.visitors-section { margin-top: 1rem; }
+.visitors-section > .card-title { margin: 0 2rem 1rem; }
+.visitors-section .visitor-map-container { margin-top: 1rem; }
+
+/* A visible scrollbar matching the cool paper palette. */
+.news-list::-webkit-scrollbar { width: 10px; }
+.news-list::-webkit-scrollbar-track { background: #e1eaf1; border-radius: 8px; margin-block: 8px; }
+.news-list::-webkit-scrollbar-thumb { background: #7897af; border: 2px solid #e1eaf1; border-radius: 8px; }
+.news-list::-webkit-scrollbar-thumb:hover { background: #4d7899; }
+@supports not selector(::-webkit-scrollbar) {
+  .news-list { scrollbar-color: #7897af #e1eaf1; scrollbar-width: thin; }
+}
+.news-list:focus-visible { outline: 2px solid #168ac4; outline-offset: 3px; }
+
+/* Match the spacing between the other sections. */
+.right-content > div:first-child { margin-bottom: 0 !important; }
+
+/* Bring the introduction closer to the top navigation. */
+.about { margin-top: 0; }
+@media (min-width: 1001px) {
+  .right-content { padding-top: 1rem; }
+  .right-content > div:first-child { margin-top: 0 !important; }
+}

@@ -1,0 +1,28 @@
+/* Locally served body font; display headings keep their original typefaces. */
+body { font-family: 'Newsreader Variable', 'Songti SC', Georgia, serif; line-height: 1.7; -webkit-font-smoothing: antialiased; }
+button, select, .small-text, .news-time, .publication-venue, .exp-period, .timeline-label, .education-period { font-family: 'Inter Variable', 'PingFang SC', sans-serif; }
+.meta-name, .publication-title, .education-university, .exp-organization-name {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.publication-authors { line-height: 1.7; }
+.news-list li { align-items: baseline; }
+
+/* A little more weight for the reading text. */
+.intro-text, .news-content, .publication-authors, .abstract-popup p,
+.exp-details, .education-details, .award-text, .meta-description,
+.hero-meta > div:not(.meta-name):not(.meta-link):not(.contact-small) {
+  font-weight: 500;
+}
+
+/* A stronger, clean sans serif for the introduction only. */
+.about .intro-text {
+  font-family: 'IBM Plex Sans', 'PingFang SC', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 1.8;
+}
+.about .intro-text strong { font-weight: 700; }
+
+.profile-name, .meta-name { color: #168ac4; }
+
+.meta-description { color: #425d73; }

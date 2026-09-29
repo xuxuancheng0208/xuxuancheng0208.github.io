@@ -1,0 +1,195 @@
+/* ======== 全局 ======== */
+body {
+  margin: 0;
+  font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #ffffff;
+  color: #242424;
+  line-height: 1.6;
+  scroll-behavior: smooth;
+  font-size: calc(0.9rem + 2px);
+}
+html, body {
+  overflow-x: hidden;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+a {
+  color: #359ed4;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #168ac4;
+}
+
+/* ======== 布局 ======== */
+#root {
+  width: 100%;
+}
+
+.App {
+  min-height: 100vh;
+}
+
+.main-layout {
+  display: flex;
+  flex: 1;
+  margin-top: 56px;   /* header 高度 */
+  margin-bottom: 44px; /* footer 高度 */
+}
+
+/* ======== Header / Footer 固定 ======== */
+header{
+  position: fixed;
+  left: 0;
+  width: 100%;
+  height: 56px;
+  text-align: center;
+  z-index: 10;
+}
+
+footer {
+  border-top: 1px solid #e6e6e6;
+  border-bottom: none;
+  font-size: calc(0.9rem + 2px);
+  color: #777;
+}
+
+/* ======== 左侧 Hero ======== */
+/*.left-hero {*/
+/*  width: 320px;*/
+/*  display: flex;*/
+/*  justify-content: center;*/
+
+/*  background-color: #fff;*/
+/*  position: sticky;*/
+/*  top: 0; !* 让它粘在页面顶部 *!*/
+/*}*/
+.left-hero {
+  position: fixed;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%); /* 垂直居中 */
+  width: 320px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    padding: 2rem 0rem 2rem 8rem;
+  background-color: #fff;
+  height: auto;
+  z-index: 5; /* 保证在内容上方 */
+}
+
+
+/* ======== 右侧内容 ======== */
+.right-content {
+  flex: 1;
+  padding: 2rem 8rem 2rem 10rem;
+  background: #fff;
+  margin-left: 320px;
+}
+
+
+/* ======== Header 导航 ======== */
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+nav a {
+  color: #444;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #168ac4;
+}
+
+/* ======== 响应式布局 ======== */
+@media (max-width: 1000px) {
+  .main-layout {
+    flex-direction: column;
+    margin-top: 56px;
+    margin-bottom: 44px;
+    width: 100%;
+  }
+
+  header, footer {
+    position: relative;
+  }
+
+  .left-hero {
+    position: relative;
+    transform: none;
+    top: 0;
+    left: 0;
+    margin-left: 0;
+    width: 100vw;
+    padding: 0;
+    text-align: center;
+  }
+
+  .right-content {
+    margin-left: 0;
+    width: 100vw;
+    padding: 0;
+  }
+  section {
+    margin-bottom: 2rem;
+  }
+}
+
+
+div {
+  scroll-margin-top: 4rem; /* header 高度 */
+}
+
+/* Personal content adaptations; layout above is the original template. */
+.wechat { font-size: calc(.75rem + 2px); color: #777; text-align: center; }
+.wechat summary { cursor: pointer; }
+.wechat img { width: 170px; max-width: 100%; margin: 8px auto; }
+.publication-authors strong { color: #168ac4; font-weight: 900; }
+.venue-tag.conference { background-color: #359ed4; }
+.venue-tag.project { background-color: #279cae; }
+.news-time { color: #359ed4; }
+.news-content a { color: #168ac4; }
+.header-name { text-decoration: none; }
+a:focus-visible, button:focus-visible, select:focus-visible, summary:focus-visible { outline: 2px solid #168ac4; outline-offset: 3px; }
+@media (max-width: 1000px) {
+  .hero-grid { max-width: 360px; margin: 0 auto; }
+  .profile-pic { display: block; margin-left: auto; margin-right: auto; }
+  .education-header { align-items: flex-start; gap: .5rem; flex-wrap: wrap; }
+  .header-nav { box-sizing: border-box; }
+  .publication-image { box-sizing: border-box; }
+}
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+.wechat-toggle { display: inline-flex; align-items: center; padding: 0; border: 0; background: transparent; cursor: pointer; line-height: 1; }
+.wechat-toggle:hover { color: #359ed4; }
+
+/* Full abstracts retain the template popup; click also supports touch screens. */
+.abstract-popup { top: 100%; max-height: min(420px, 55vh); overflow-y: auto; overscroll-behavior: contain; text-align: left; line-height: 1.65; }
+.abstract-popup p { margin: .5rem 0 0; }
+.abstract-open .abstract-popup { display: block; }
+.abstract-toggle { padding: 0; border: 0; border-radius: 0; background: none; color: #242424; font-size: calc(.8rem + 2px); font-weight: 700; cursor: pointer; }
+.abstract-toggle::before { content: "|"; margin: 0 8px; color: #b6e2f5; }
+.abstract-toggle:hover { text-decoration: underline; }
+.venue-tag.submission { background: #6c8599; }
+#physforce .publication-image { object-fit: contain; background: #fff; }
+@media (hover: none) { .publication-title-wrapper:not(.abstract-open):hover .abstract-popup { display: none; } }
+
+.abstract-close { float: right; background: transparent; border: 0; padding: 0 3px; font-size: calc(1.2rem + 2px); color: #168ac4; cursor: pointer; }
+
+/* Conference ranks and review status from the supplied CV. */
+.publication-venue { flex-wrap: wrap; align-items: center; gap: 6px; }
+.paper-rank, .paper-distinction, .paper-review-status { display: inline-block; font-size: calc(.75rem + 2px); line-height: 1.5; padding: 2px 8px; border-radius: 999px; }
+.paper-rank.ccf-a { color: #c62828; background: #fff0f0; border: 1px solid #f5bcbc; font-weight: 800; }
+.paper-rank.ccf-b { color: #39708b; background: #edf6fc; border: 1px solid #c4dfed; font-weight: 700; }
+.paper-distinction { color: #b54708; background: #fff3df; border: 1px solid #f5d5a0; font-weight: 700; }
+.paper-review-status { color: #626b77; background: #f1f3f6; border: 1px solid #dce1e7; font-weight: 500; }
+
+/* Original template's centered, light visitor widget. */
+.visitor-map-container { width: 80%; margin: 2rem auto; min-height: 160px; }

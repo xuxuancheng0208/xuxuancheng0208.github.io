@@ -1,0 +1,13 @@
+import { StrictMode } from 'react';
+import { createRoot } from 'react-dom/client';
+import App from './App.jsx';
+import '@fontsource/sigmar-one/400.css';
+import '@fontsource-variable/inter';
+import '@fontsource/ibm-plex-sans/600.css';
+import '@fontsource/ibm-plex-sans/700.css';
+import '@fontsource-variable/newsreader';
+import '@fontsource-variable/newsreader/wght-italic.css';
+import './App.css';
+import './paper.css';
+import './typography.css';
+createRoot(document.getElementById('root')).render(<StrictMode><App /></StrictMode>);

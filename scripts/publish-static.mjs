@@ -5,7 +5,7 @@ import path from 'node:path';
 // Keep GitHub Pages root output in sync with the Vite build.
 const root = fileURLToPath(new URL('../', import.meta.url));
 const dist = path.join(root, 'dist');
-const allowed = new Set(['assets', 'images', 'index.html', 'favicon.svg', 'prism.svg', 'paper-grain.svg']);
+const allowed = new Set(['assets', 'images', 'index.html', 'favicon.svg', 'prism.svg', 'paper-grain.svg', 'google3ed99449e834dfc8.html']);
 const entries = await readdir(dist);
 for (const name of entries) {
   if (!allowed.has(name)) throw new Error(`Unexpected build output: ${name}`);

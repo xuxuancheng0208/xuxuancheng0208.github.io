@@ -148,9 +148,6 @@ div {
 }
 
 /* Personal content adaptations; layout above is the original template. */
-.wechat { font-size: calc(.75rem + 2px); color: #777; text-align: center; }
-.wechat summary { cursor: pointer; }
-.wechat img { width: 170px; max-width: 100%; margin: 8px auto; }
 .publication-authors strong { color: #168ac4; font-weight: 900; }
 .venue-tag.conference { background-color: #359ed4; }
 .venue-tag.project { background-color: #279cae; }
@@ -193,3 +190,25 @@ a:focus-visible, button:focus-visible, select:focus-visible, summary:focus-visib
 
 /* Original template's centered, light visitor widget. */
 .visitor-map-container { width: 80%; margin: 2rem auto; min-height: 160px; }
+
+/* The top-layer dialog keeps the QR image inside even short viewports. */
+.wechat-dialog {
+  box-sizing: border-box;
+  width: fit-content;
+  max-width: calc(100vw - 32px);
+  max-height: calc(100dvh - 32px);
+  margin: auto;
+  padding: 16px;
+  border: 1px solid #91a8ba;
+  border-radius: 14px;
+  background: #f8fafc;
+  color: #29475d;
+  box-shadow: 0 18px 60px #18324740;
+  overflow: auto;
+}
+.wechat-dialog::backdrop { background: #142b456b; }
+.wechat-dialog-heading { display: flex; align-items: center; justify-content: space-between; gap: 24px; margin-bottom: 12px; }
+.wechat-dialog-heading h2 { margin: 0; font-size: 20px; }
+.wechat-dialog-heading button { display: grid; place-items: center; width: 36px; height: 36px; padding: 0; background: transparent; color: #29475d; font-size: 28px; line-height: 1; border: 0; border-radius: 6px; cursor: pointer; }
+.wechat-dialog-heading button:focus-visible { outline: 2px solid #168ac4; outline-offset: 2px; }
+.wechat-dialog > img { display: block; width: auto; height: auto; max-width: min(320px, calc(100vw - 66px)); max-height: calc(100dvh - 114px); margin: 0 auto; object-fit: contain; }

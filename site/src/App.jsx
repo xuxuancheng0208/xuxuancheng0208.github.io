@@ -1,5 +1,5 @@
 import Visitor from './components/Visitor';
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { FaGithub, FaWeixin } from 'react-icons/fa';
 import { FaGoogleScholar } from 'react-icons/fa6';
 import { MdEmail } from 'react-icons/md';
@@ -27,12 +27,26 @@ function Header() {
 }
 function Hero(){
  const [wechatOpen, setWechatOpen] = useState(false);
+ const wechatDialog = useRef(null);
+ useEffect(() => {
+   const dialog = wechatDialog.current;
+   if (wechatOpen && !dialog.open) dialog.showModal();
+   if (!wechatOpen && dialog.open) dialog.close();
+ }, [wechatOpen]);
  return <div className="hero-grid"><div className="hero-left"><img src="/images/xuancheng-photo.jpg" alt="Xuancheng Xu" className="profile-pic"/><div className="hero-meta">
    <div className="meta-name">Xuancheng Xu<span className="chinese-name">（许轩诚）</span></div><div>Ph.D. Student @ NJUPT</div>
    <div className="meta-description"><div>Generative AI</div><div>Controllable Video Generation</div><div>Video World Models</div></div>
    <div className="meta-link"><a className="meta-linkitem" href="https://scholar.google.com/citations?user=AX3TBb4AAAAJ&hl=zh-CN" target="_blank" rel="noreferrer">Google Scholar</a><a className="meta-linkitem" href={`mailto:${email}`}>Contact</a></div>
-   <div className="contact-small"><a href={`mailto:${email}`} className="icon-link" aria-label="Email"><MdEmail/></a><a href="https://github.com/xuxuancheng0208" className="icon-link" aria-label="GitHub"><FaGithub/></a><a href="https://scholar.google.com/citations?user=AX3TBb4AAAAJ&hl=zh-CN" className="icon-link" aria-label="Google Scholar"><FaGoogleScholar/></a><button type="button" className="icon-link wechat-toggle" aria-label="WeChat QR code" title="WeChat" aria-expanded={wechatOpen} aria-controls="wechat-qr" onClick={()=>setWechatOpen(!wechatOpen)}><FaWeixin/></button></div>
-   <div className="small-text">Nanjing, China</div><div className="wechat"><div id="wechat-qr" hidden={!wechatOpen}><img src="/images/wechat.jpg" alt="WeChat QR code for _EdisonXu" loading="lazy"/></div></div>
+   <div className="contact-small"><a href={`mailto:${email}`} className="icon-link" aria-label="Email"><MdEmail/></a><a href="https://github.com/xuxuancheng0208" className="icon-link" aria-label="GitHub"><FaGithub/></a><a href="https://scholar.google.com/citations?user=AX3TBb4AAAAJ&hl=zh-CN" className="icon-link" aria-label="Google Scholar"><FaGoogleScholar/></a><button type="button" className="icon-link wechat-toggle" aria-label="WeChat QR code" title="WeChat" aria-expanded={wechatOpen} aria-controls="wechat-qr" aria-haspopup="dialog" onClick={()=>setWechatOpen(!wechatOpen)}><FaWeixin/></button></div>
+   <div className="small-text">Nanjing, China</div>
+   <dialog ref={wechatDialog} id="wechat-qr" className="wechat-dialog" aria-labelledby="wechat-title" onClose={()=>setWechatOpen(false)} onClick={event=>{
+     if (event.target !== event.currentTarget) return;
+     const rect = event.currentTarget.getBoundingClientRect();
+     if (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom) event.currentTarget.close();
+   }}>
+     <div className="wechat-dialog-heading"><h2 id="wechat-title">WeChat</h2><button type="button" aria-label="Close WeChat QR code" onClick={()=>wechatDialog.current.close()}>×</button></div>
+     <img src="/images/wechat.jpg" alt="WeChat QR code for _EdisonXu" />
+   </dialog>
  </div></div></div>;
 }
 function Publications(){
@@ -76,7 +90,7 @@ export default function App(){
    </div>
  </div></div>
  <div className="card" id="education" style={{marginTop:'1rem'}}><div className="card-title">Education</div><div className="education-list">{[['Ph.D. (In progress)','2024.09 - 2029.06'],['Bachelor of Communication Engineering','2020.09 - 2024.06']].map(([degree,date])=><div className="education-item" key={degree}><div className="education-header"><h3 className="education-university">Nanjing University of Posts and Telecommunications</h3><div className="education-period">{date}<div className="education-location">Nanjing, China</div></div></div><div className="education-details"><p className="education-degree">{degree}</p></div></div>)}</div></div>
- <div className="card" id="awards" style={{marginTop:'1rem'}}><div className="card-title">Selected Awards</div><div className="awards-list">{[['2025.10','Third-class Academic Scholarship, Nanjing University of Posts and Telecommunications',''],['2024.10','First-class Academic Scholarship, Nanjing University of Posts and Telecommunications',''],['2020.11','ICPC Regional Contest','(Bronze Medal)']].map(([date,text,highlight])=><div className="award-item" key={date}><span className="award-icon">✦ </span><span className="award-text">[{date}] {text} <span className="award-highlight">{highlight}</span></span></div>)}</div></div>
+ <div className="card" id="awards" style={{marginTop:'1rem'}}><div className="card-title">Selected Honors and Awards</div><div className="awards-list">{[['2026.10','Selected for the 2026 Young Science and Technology Talent Development Program (Doctoral Student Track), China Association for Science and Technology (CAST)',''],['2025.10','Third-class Academic Scholarship, Nanjing University of Posts and Telecommunications',''],['2024.10','First-class Academic Scholarship, Nanjing University of Posts and Telecommunications',''],['2020.11','ICPC Regional Contest','(Bronze Medal)']].map(([date,text,highlight])=><div className="award-item" key={date}><span className="award-icon">✦ </span><span className="award-text">[{date}] {text} <span className="award-highlight">{highlight}</span></span></div>)}</div></div>
 
  </div><Visitor/></main></div></div>;
 }

@@ -3,7 +3,7 @@ export const papers = [
     "id": "physforce",
     "title": "PhysForce: Physics-aware Force Control for Interactive Video World Model",
     "image": "/images/papers/physforce-method.png",
-    "venue": "ICLR 2027",
+    "venue": "Under Evaluation",
     "authors": "Xuancheng Xu, Xiaofeng Wang, Yue Ma, Zheng Zhu, Bing-Kun Bao",
     "links": [
       {
@@ -16,15 +16,13 @@ export const papers = [
     ],
     "year": "2026",
     "abstract": "Interactive video world models aim to predict how visual environments evolve in response to user interventions, including physically consistent state changes induced by applied forces. Existing methods often represent forces as motion trajectories, which may introduce inappropriate motion priors, causing the model to over-rely on encoded displacement patterns. More fundamentally, the model’s internal representations do not reliably localize force-induced state changes, making it difficult to associate applied forces with their resulting physical responses. Also, limited force-annotated data make it difficult to produce physically consistent and temporally stable predictions in unseen scenarios. To address these limitations, we propose PhysForce, a two-stage framework that integrates supervised fine-tuning and reinforcement learning through three complementary components. During supervised fine-tuning, (1) the Latent Force Intervention Encoder maps force location, direction, and magnitude into the video latent space without exposing future motion; and (2) the Physics Attribution Network associates force interventions with localized changes in the latent state, strengthening the learning of physical responses to applied forces. During reinforcement learning, (3) Physics-Aware Reinforcement Learning uses self-supervised rewards on out-of-distribution videos to improve physical consistency and generalization. Extensive experiments show that PhysForce improves force responsiveness, physical consistency, and generalization, demonstrating its effectiveness for interactive video world models. Our anonymous project page is available at https://physforceproject.github.io/.",
-    "venueType": "submission",
-    "ccf": "A",
-    "reviewStatus": "Under review"
+    "venueType": "submission"
   },
   {
     "id": "giga-world-1",
     "title": "GigaWorld-1: A Roadmap to Build World Models for Robot Policy Evaluation",
     "image": "/images/papers/giga-world-1.png",
-    "venue": "Technical Report",
+    "venue": "Under Evaluation",
     "authors": "GigaAI Team (Xuancheng Xu is a co-first author and core contributor)",
     "links": [
       {
@@ -46,8 +44,7 @@ export const papers = [
     ],
     "year": "2026",
     "abstract": "Evaluating embodied robot foundation models remains a critical bottleneck; unlike large language models efficiently assessed via digital benchmarks, robotic policies require slow, costly real-world rollouts limited by hardware and human supervision, which has driven interest in world models as surrogate policy evaluators, yet the key properties that make a world model reliable for policy assessment remain poorly understood. This work presents a systematic study of world models for robotic policy evaluation and introduces WMBench, a benchmark constructed from real-robot teleoperation data and matched policy rollouts covering diverse manipulation tasks to enable controlled comparisons across model families, action encodings, rollout horizons, and evaluation metrics. Using WMBench, we analyze 7 video world models, 4 action representation schemes, and over 324,000 simulated policy rollouts paired with real robot executions, further enriching our analysis with large-scale community submissions from the CVPR 2026 GigaBrain Challenge, curated synthetic trajectories, and a training videos spanning more than 12,000 hours. Our experiments deliver three core insights: evaluator quality is dominated by long-horizon, action-faithful rollout consistency rather than short-term visual realism; pretraining gains stem not only from data scale but from balancing general world knowledge with robot-specific controllability; and architectural choices including action encoding, memory design, and evaluator-focused post-training strongly determine alignment with real-world robot behavior. Drawing on these results, we derive a practical design roadmap and realize it in GigaWorld-1, a world model specially optimized for policy evaluation, and we fully release our code, models, datasets, and toolkits to advance scalable evaluation research for embodied foundation models.",
-    "venueType": "project",
-    "reviewStatus": "Under review at Nature Machine Intelligence"
+    "venueType": "submission"
   },
   {
     "id": "smrabooth",
